@@ -51,6 +51,14 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::category.category"
+    },
+    "likes": {
+      "type": "integer",
+      "default": 0
+    },
+    "hearts": {
+      "type": "integer",
+      "default": 0
     }
   }
 }
